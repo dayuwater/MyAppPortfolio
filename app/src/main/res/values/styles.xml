@@ -12,7 +12,7 @@
     <style name="TitleFont" >
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">#00FF00</item>
+        <item name="android:textColor">#2E3D49</item>
         <item name="android:typeface">monospace</item>
     </style>
 
@@ -23,8 +23,10 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">#2E3D49</item>
         <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">#ffffff</item>
     </style>
 
+    
 
 
 

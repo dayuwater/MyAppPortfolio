@@ -33,56 +33,49 @@
 
         <Button
             style="@style/ButtonStyle"
-
-
-
             android:text="POPULAR MOVIES"
             android:clickable="true"
             android:onClick="button1_click"
             android:id="@+id/button_popular_movies"
-            />
+             />
 
         <Button
             style="@style/ButtonStyle"
             android:text="STOCK HAWK"
+            android:clickable="true"
+            android:onClick="button2_click"
             android:id="@+id/button_stock_hawk"/>
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/ButtonStyle"
             android:text="BUILD IT BIGGER"
-
-            android:background="#83c22a"
-            android:padding="0dp"
-            android:layout_margin="5dp"
+            android:clickable="true"
+            android:onClick="button3_click"
             android:id="@+id/button_build_it_bigger"/>
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/ButtonStyle"
             android:text="MAKE YOUR APP MATERIAL"
+            android:clickable="true"
+            android:onClick="button4_click"
             android:id="@+id/button_make_your_app_material"
-            android:background="#3690a9"
-            android:padding="0dp"
-            android:layout_margin="5dp" />
+             />
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/ButtonStyle"
             android:text="GO UBIQUITOUS"
+            android:clickable="true"
+            android:onClick="button5_click"
             android:id="@+id/go_ubiquitous"
-            android:background="#7d2ed0"
-            android:padding="0dp"
-            android:layout_margin="5dp" />
+             />
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/ButtonStyle"
             android:text="CAPSTONE"
+            android:clickable="true"
+            android:onClick="button6_click"
             android:id="@+id/button_capstone"
-            android:background="#de102b"
-            android:padding="0dp"
-            android:layout_margin="5dp" />
+            />
 
     </LinearLayout>
 </RelativeLayout>
