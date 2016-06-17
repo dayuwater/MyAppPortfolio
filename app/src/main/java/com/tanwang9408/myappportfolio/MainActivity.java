@@ -18,67 +18,45 @@ public class MainActivity extends AppCompatActivity {
 
     public void button1_click(View view) {
         // Do something in response to button click
-        Context context = getApplicationContext();
-        CharSequence text = "This button will launch my popular movies app!";
-        int duration = Toast.LENGTH_SHORT;
-
-        Toast toast = Toast.makeText(context, text, duration);
-        toast.show();
+        showToastMessage(getString(R.string.button1_text));
 
     }
 
     public void button2_click(View view) {
         // Do something in response to button click
-        Context context = getApplicationContext();
-        CharSequence text = "This button will launch my stock hawk app!";
-        int duration = Toast.LENGTH_SHORT;
-
-        Toast toast = Toast.makeText(context, text, duration);
-        toast.show();
+        showToastMessage(getString(R.string.button2_text));
 
     }
 
     public void button3_click(View view) {
         // Do something in response to button click
-        Context context = getApplicationContext();
-        CharSequence text = "This button will launch my build it bigger app!";
-        int duration = Toast.LENGTH_SHORT;
-
-        Toast toast = Toast.makeText(context, text, duration);
-        toast.show();
+        showToastMessage(getString(R.string.button3_text));
 
     }
 
     public void button4_click(View view) {
         // Do something in response to button click
-        Context context = getApplicationContext();
-        CharSequence text = "This button will launch my make your app material app!";
-        int duration = Toast.LENGTH_SHORT;
-
-        Toast toast = Toast.makeText(context, text, duration);
-        toast.show();
+        showToastMessage(getString(R.string.button4_text));
 
     }
 
     public void button5_click(View view) {
         // Do something in response to button click
-        Context context = getApplicationContext();
-        CharSequence text = "This button will launch my go ubiquitous app!";
-        int duration = Toast.LENGTH_SHORT;
-
-        Toast toast = Toast.makeText(context, text, duration);
-        toast.show();
+        showToastMessage(getString(R.string.button5_text));
 
     }
 
     public void button6_click(View view) {
         // Do something in response to button click
-        Context context = getApplicationContext();
-        CharSequence text = "This button will launch my capstone app!";
-        int duration = Toast.LENGTH_SHORT;
-
-        Toast toast = Toast.makeText(context, text, duration);
-        toast.show();
+        showToastMessage(getString(R.string.button6_text));
 
     }
+
+    private void showToastMessage(String text) {
+        Context context = getApplicationContext();
+        int duration = Toast.LENGTH_SHORT;
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
+    }
+
 }
